@@ -17,7 +17,7 @@ The 0x01-NoSQL project is focused on exploring and implementing NoSQL databases.
 
 To get started with the 0x01-NoSQL project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/0x01-NoSQL.git`
+1. Clone the repository: `git clone https://github.com/lemyjay/alx-backend-storage/0x01-NoSQL.git`
 2. Install the required dependencies: `npm install`
 
 ## Usage
@@ -44,13 +44,13 @@ This project is licensed under the [MIT License](LICENSE).
 ## Resources
 Read or watch:
 
-- [NoSQL Databases Explained](https://www.youtube.com/watch?v=7S_tz1z_5bA)
+- [NoSQL Databases Explained](https://intranet.alxswe.com/rltoken/wweK7dOY4pf8haCqv9Iv6Q)
 - [What is NoSQL?](https://www.mongodb.com/nosql-explained)
-- [MongoDB with Python Crash Course - Tutorial for Beginners](https://www.youtube.com/watch?v=E-1xI85Zog8)
-- [MongoDB Tutorial 2: Insert, Update, Remove, Query](https://www.youtube.com/watch?v=7S_tz1z_5bA)
-- [Aggregation](https://docs.mongodb.com/manual/aggregation/)
-- [Introduction to MongoDB and Python](https://realpython.com/introduction-to-mongodb-and-python/)
-- [mongo Shell Methods](https://docs.mongodb.com/manual/reference/method/)
+- [MongoDB with Python Crash Course - Tutorial for Beginners](https://intranet.alxswe.com/rltoken/RyyP9OH1EMBWWYpTs4TqoA)
+- [MongoDB Tutorial 2: Insert, Update, Remove, Query](https://intranet.alxswe.com/rltoken/9__3tR-NimgXlmjPQwTF-Q)
+- [Aggregation](https://intranet.alxswe.com/rltoken/ziEDeniRobC6owPE1_avAQ)
+- [Introduction to MongoDB and Python](https://intranet.alxswe.com/rltoken/axwwF4CjO7FnK8Ecochqnw)
+- [mongo Shell Methods](https://intranet.alxswe.com/rltoken/lUqnLwOHbbp9FK39ijNmDQ)
 - [Mongosh](https://docs.mongodb.com/mongodb-shell/)
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
