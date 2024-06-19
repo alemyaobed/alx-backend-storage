@@ -22,11 +22,11 @@ class Cache:
     '''
     def __init__(self) -> None:
         '''The constructor method for the class'''
-        self.___redis = redis.Redis()
-        self.___redis.flushdb()
+        self.__redis = redis.Redis()
+        self.__redis.flushdb()
 
     def store(self, data: Union[str, bytes, int, float]) -> str:
         '''The store method for the class'''
         random_key = str(uuid.uuid4())
-        self.___redis.set(random_key, data)
+        self.__redis.set(random_key, data)
         return random_key
