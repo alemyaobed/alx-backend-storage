@@ -2,7 +2,7 @@
 '''
 Writing strings to redis
 '''
-import functools
+from functools import wraps
 import redis
 from typing import Union, Callable, Optional
 import uuid
@@ -10,7 +10,7 @@ import uuid
 
 def count_calls(method: Callable) -> Callable:
     '''Decorator to count the number of calls to a method'''
-    @functools.wraps(method)
+    @wraps(method)
     def wrapper(self, *args, **kwargs):
         # Increment the call count in Redis
         key = method.__qualname__
